@@ -5,6 +5,7 @@ import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.util.List;
 
+// Esta logica debe ir capa Aplicacion
 public class TreasuryAverageCalculator {
     public TreasuryAverage calculate(LocalDate from, LocalDate to, List<TreasuryObservation> observations) {
         if (from.isAfter(to)) {
